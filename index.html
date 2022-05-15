@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script type="text/javascript">
+    /* document.write ("yaso");
+      console.log("jerusalem");
+      alert(" Wellcome bichezz!");
+      var user = prompt(" did u alrdy registered");
+      console.log(user);
+      var userAge = +prompt("are u over 18?");
+      if(userAge >= 18 ){
+          alert("wasaap")
+      }
+      else {
+          alert("fuck off")
+      }
+      var userName = prompt("What your name")
+      document.write (userName);;
+      var userage = prompt("your age pleas")
+      document.write (userage);
+      console.log("israel");
+      console.log("Yaso")
+      console.log("5")
+      console.log("6")
+      console.log("7")
+      console.log("8")
+      console.log("9");
+      var firstVar = 2
+      var secVar = 4
+      var thVar = 6
+      var forVar = 8
+      var fiVar = 10;
+      var avg = (2+4+6+8+10/5)
+      var sum = (2+4+6+8+10)
+      var recLong = 2 
+      var recwid = 4 
+      var recTerrr = 2*4
+      var numa = 1
+      var numb = numa+1
+     document.write(++numa);
+     document.write(--numb);
+     var num1 = +prompt("number one")
+       var num2 = +prompt("number two")
+       console.log(num1,num2)
+     var  n1 = +prompt("number one");
+     var n2 = +prompt("number two");
+     console.log(n1,n2)
+     var namOne = +prompt("namber one");
+     var namTwo = +prompt("namber two");
+     console.log(namOne,namTwo);
+     var namberone = +prompt(" namber one");
+     var nambertwo = +prompt(" namber two");
+     console.log(namberone,nambertwo)
+     var naone = +prompt("namber one")
+     var natwo = +prompt("namber two")
+     console.log(naone,natwo)
+     var a1 = "a";
+     var a2 = "1";
+     console.log(a1,a2)
+     var a = true
+     console.log(a)
+     //true//
+     var A = 3;
+     var b = 2;
+     var Ab = (A==3 && b==3);
+     console.log(Ab);
+     //false//
+     var A1 = 2;
+     var b1 = 3;
+     var A1b1 = (A1==5&&b1==7);
+     console.log(A1b1);
+     //true/false/
+     var A2 = 4;
+     var b2 = 5;
+     var A2b2 = (A2==4&&b2==6);
+     console.log(A2b2);
+     //false\true/
+     var A3 = 5;
+     var b3 = 7;
+     var Ab1 = (A3==4&&b3==7); 
+     console.log(Ab1);
+     //true true//
+     var A4 = 5;
+     var b4 = 7;
+     var Ab4 = (A4==5||b4==7); 
+     console.log(Ab4)
+     //false false//
+     var A5 = 5;
+     var b5 = 7;
+     var Ab5 = (A5==4||b5==8); 
+     console.log(Ab5);
+     //true false//
+     var A5 = 5;
+     var b5 = 7;
+     var Ab5 = (A5==5||b5==8); 
+     console.log(Ab5);
+     //false true\\
+     var A5 = 5;
+     var b5 = 7;
+     var Ab5 = (A5==5||b5==8); 
+     console.log(Ab5);
+     var namber1 = +prompt(" add number1");
+     var namber2 = +prompt(" add number2");
+     var namber3 = +prompt(" add number3");
+     var mul = namber1*namber2*namber3 ;
+     console.log(mul);
+     var first = 7;
+     var second = 2;
+     var result = first%second;
+     console.log(result)
+     var N = +prompt("numbers")
+     console.log(++N)
+     var N1 = +prompt("add number")
+     console.log(N1*=3)*/
+    //   var r = +prompt("number")
+    //   var p = 3.14*r*r
+    //   var s = 2*3.14*r
+    //   console.log("p",p,"s",s)
+    // //payers name and ages avreg//
+    // var player1 = prompt("player1name")
+    // var player1age = +prompt("player1age")
+    // var player2 = prompt("player2name")
+    // var player2age = +prompt("player2age")
+    // var player3 = prompt("player3name")
+    // var player3age = +prompt("player3age")
+    // var palyers = (player1age+player2age+player3age)/3
+    // console.log(player1,player2,player3,palyers)
+    // var st = +prompt("add anumber")
+    // var sec = +prompt("add a naumber")
+    // console.log(st%sec)
+
+    // var orange = 8;
+    // var apples = 11;
+
+    // if ( (orange==apples)&&(orange < apples) ) {
+    //   alert("this is true 1")
+    // }
+    // else if (orange < apples) {
+    //   alert("this is true 2")
+    // }
+    // else {
+    //   alert("this is true 3")
+    // }
+    // var i = 0
+    // var numbe1 = +prompt("add a number1")
+    // var numbe2 = +prompt("add a number2")
+    // var numbe3 = +prompt("add a number3")
+    // var numbe4 = +prompt("add a number4")
+    // var numbe5 = +prompt("add a number5")
+    // var sumup = (numbe1+numbe2+numbe3+numbe4+numbe5)
+    // var evarg = (numbe1*numbe2*numbe3*numbe4*numbe5/5)
+
+
+    // while(i<=5){
+    //    document.write("the sum up"+sumup + "the evrg"+evarg+"<br>")
+    //    i++
+    // }
+    //תוכנית שמדפיסה את כל המס השלמים הזוגיים מ 2 עד 50
+    // var i = 1
+    // while(i < 50){
+    //   if(i%2 == 0)
+    //    document.write(i +"</br>")
+    //    i++
+    // }
+
+    // var i = 0
+    //    while(i<=50){
+    //      if(i%3 == 1)
+    //      document.write(i +"</br>")
+    //      i++
+    //    }
+    // var i = +prompt("add a number")
+    // while(i<=4){
+    //  i++
+    /* var name = 0;
+       while(name < 10){
+           console.log("yaso");
+           name++
+       }
+        var nam = 0
+        while(nam < 100){
+            console.log(nam)
+            nam++
+        }
+        // print doo(zoogi) numbers from 0 to 567 to the console//
+        var i = 3
+        while(i < 567){
+            if(i%2 == 1){
+                console.log(i)
+            }
+            i++
+        }
+        //print odd numb\\ 
+        for (var i = 0; i < 100; i++ ){
+            if(i%2 == 0){
+            console.log(i)}
+        }
+        var  numb1 = +prompt (" numbers")
+        var  numb2 = +prompt ("two numbers")
+        console.log(numb1,numb2)
+        
+       // var num1 = +prompt("number one")
+       // var num2 = +prompt("number two")
+       // console.log(num1,num2)*/
+    // var numb4 = prompt("give a number")
+    // if(numb4>10){
+    //     document.write("greater then 10")
+    // }
+    // var nam3 = +prompt("add a number")
+    // if (nam3>10) {
+    //     console.log("greater then 10")
+    // }
+    // else if (nam3<10){
+    //     console.log(" less then 10")
+    // }
+    //     var num3 = +prompt("add anumber")
+    //     if(num3>10){
+    //         console.log("greatr then 10")
+    //     }
+    //     else if (num3<10){
+    //         console.log("less then 10")
+    //     }
+    // else{
+    //     console.log("equal")
+    // }
+    // var first = +prompt("add st number")
+    // var second = +prompt("add sec number")
+    // if (first>second){
+    //     console.log("first is greater")
+    // }
+    // else if(second>first){
+    //     console.log("second is greater then first")
+    // }
+    // else{
+    //     console.log("values are equal")
+    // }
+    // var i = 0
+    // while(i<=100){
+    //     console.log(i)
+    //     ++i
+    // }
+    //תירגול למחוק//
+    //    var X
+    //    x = prompt("hey what ur name")
+    //    alert("hey "+ x +" nice to meet u")
+    //פונקציות שקוראת הלו ורלד שולש קריאות
+    // function printHelloworld(){
+    // document.write("hello world<br>") 
+    // }
+    // printHelloworld()
+    // printHelloworld()
+    // printHelloworld()
+    //פונקציה שגם מחזירה הלו וורלד שלוש פימים אך בלי שלוש קריאות.//
+    // function printHelloworld(){
+    //     var x = 0
+    //     while(x<3){
+    // document.write("hello world<br>")
+    // x++
+    //     } 
+    // }
+    // printHelloworld()
+    // פונקציההדפסה של ישראל לקונסול//
+    // function printConsul(){
+    // console.log("israel")
+    // }
+    // printConsul()
+    //הדפסה של השם לקונסול בפונקציה וקראה אחת//
+    // function printName(){
+    //     console.log("yaso")
+    // }
+    // printName)
+    //הדפסה של השם לקונסול//
+    // function printNumber(){
+    //     console.log("יאסו")
+    // }
+    // printNumber()
+    // function oddNumber(){ 
+    //     console.log(2)
+
+    // }
+    //   oddNumber()
+    //חישוב שטח וממוצע//
+    // function printMath(){
+    // var x = 1
+    // var y = 2
+    // var z = 3
+    // var r = 4
+    // var avg = x*y*z*r/r
+    // var sum = x+y+z+r
+    //      console.log(avg,sum)
+
+    // }
+    // printMath()
+    //חישוב שטח מלבן //
+    // var a = 4
+    // var b = 2
+
+    // function printShetah(){
+    //     console.log(a*b)
+    // }
+    // printShetah()
+    //החלפה בין מס1 לבין מס22//
+    // function printSwich(){
+    // var numb1 = 1 
+    // var num22 = 2
+    // document.write(++numb1, --num22);
+    // }
+    // printSwich()
+    //הדפסת ממוצע וסכום המס פרים והזנת ספרות עי משצש//
+    //     function printSumAvrg(){
+    //         var namber1 = +prompt("add anumber")
+    //         var namber2 = +prompt("add anumber")
+    //         var namber3 = +prompt("add anumber")
+    //         var namber4 = +prompt("add anumber")
+    //         var sum = namber1+namber2+namber3+namber4
+    //         var avrg = namber1*namber2*namber3*namber4/ 4
+    //         conole.log("sum"+sum,"avrag"+ avrg)
+    //     }
+    //    printSumAvrg()
+    //חישוב שטח מלבן וקבלת פרמטרים מהמשתמש//
+    // var long = +prompt("add a number2")
+    // var h = +prompt("add anumber1")
+    // var s = long * h
+    // function printLonghigt(){
+    //     console.log("area" + s)
+
+    // }
+    // printLonghigt()
+    //שינוי החישוב של הסיפרות לאחר הדפה//
+    // var n11 = +prompt("add anumber1")
+    // var n22 = +prompt("add anumber2")
+    // function printChenge() {
+    //     document.write(  ++n11,  --n22)
+
+    // }
+    // printChenge();
+    //משתנים לוגיים//
+    //חישוב a וb true or falls
+    // var a = 1
+    // var b = 2
+    // function boolYa(){
+    //  console.log(a == 1 && b == 2)
+    //  console.log(a == 2 && b == 3)
+    //  console.log(a == 1 && b == 3)
+    //  console.log(a == 2 && b == 2)
+
+    //    }
+    //    boolYa()
+    // var a =3
+    // var b =4 
+    // function boolYanop(){
+    //     console.log(a==3 || b ==4)
+    //     console.log(a==4 || b ==3)
+    //     console.log(a==2 || b ==5)
+    //     console.log(a==7 || b ==4)
+    // }
+    //  boolYanop()
+    // הדפסת מכפלתםקליטת 3מס מהמשתמש ו//
+    // var mul = a = +prompt("addd anumber1") * (b = +prompt("add number2")) * (c = +prompt("addnumbr3"));
+    //  var a , b , c;
+    // function prinTree(){
+    //     console.log(mul)
+
+    // }
+    // prinTree()
+    //תוכנית שמקבלת מס פרים מהמשתמש ומחשבת% מודלוס שלהם//
+    // var first,second;
+    // var result = first == +prompt("add anumber please") % (second == +prompt("add a number pleas"));
+    // function prinResult(){
+    //     console.log(result); //falss//
+    // }
+    // prinResult()
+    // והגדלתו  מספר מהמשתמש //
+    // var m = +prompt("add anumber pleas");
+    // function printUsernumb(){
+    //     console.log(m);
+    // }
+    // m++
+    // printUsernumb()
+    //הדפסת ערך אקוילנטית בעזרת שני משפטים  d=4+ ++b;//
+    // var b =+ 4
+    // var d = b 
+    // function printAqv(){
+    // console.log(b,d)
+    // }
+    // printAqv()
+    // var b =- 4
+    // var d = b
+    // function printAq(){
+    //     console.log(b)
+    // }
+    // printAq()
+    // קולט מהמשתמש מס עם המספר גדול תדפיס"גדול מעשר"
+    // var num = +prompt("add a number")
+    // function printGrat(){
+    //     if(num>10){
+    //         document.write("greater then 10")
+    //     }
+    // }
+    // printGrat()
+    //קבלת מס מהמשתמש  //
+    // var num = +prompt("addd anumber")
+    // function printGreater(){
+    //     if(num>10){
+    //         console.log("greater then ten")
+    //     }
+    //     else if(num<10){
+    //         console.log("less then ten")
+    //     }
+    // }
+    // printGreater()
+    //הדפסת המספרים מ1-100
+    //     function printNumbers(){
+    //    var i = 1;
+    //     while(i<=100){
+    //         document.write(i+ "<br>");
+    //         i++
+    //     }
+    // }
+    // printNumbers()
+    //     var i = 0;
+    //     var sum =0
+    // var avrg = 0
+    // function printFive()
+    // while(i<5){
+    //     var numbers= +prompt("pleas enter number")
+    //    sum+=numbers
+    //     i++
+    // }
+    // document.write(sum +"<br>")
+    // document.write(sum/i)
+    // printFive()
+    //הדפסת תוכניס שמדפיסה את כל המס החיוביים בין 2-50//
+    //  function printFive(){
+    // var i = 1
+    // while(i<=50){
+    //   if(i%2 ==0){
+    //     document.write(i)
+    //   }
+    //      i++
+    // }
+    //  }
+    // printFive()
+    //תוכנית שמדפיסה את כל המס האי זוגיים  בין 1-50//
+    // function printOddn(){
+    //   var i = 0
+    //   while(i<=50){
+    //     if(i%3 ==1){
+    //       document.write(i)
+    //     }
+    //     i++
+    //   }
+    // }
+    // printOddn()
+    //חישוב עצרת //
+    //   function printFkt(){
+    //   var i = +prompt("add anumb")
+    //   var fkt = 1
+    //   while (i > 0) {
+    //     fkt *= i
+    //     i--
+    //   } 
+    //   console.log(fkt)
+    // }
+    // printFkt()
+    //  לחזור לשאלה לא סיימתיפונקציה אשר קולטת מהמשתמש חמישה מספרים ממשים ומחשבת את המינמום והמקסימום בנהיהםומדפיסה//
+    // var i =0
+    // while(i<5){
+    //   var m = +prompt("add number")
+    //   i++
+    // }
+    // console.log(m)
+    // תוכנית שמדפיסה את המספרים מ1 עד 100//
+    //   function printFor(){
+    // var i = 0
+    //   for(var i = 0;i<=100; i++){
+    //       console.log(i)
+    //   }
+
+    //   }
+    //   printFor()
+    //קבלת מס מה משתמש חמש פעמים והדפסת סכום ו ממוצע//
+    // var namber 
+    // var sum = 0
+    // for(var i = 0; i<5; i++){
+    //   var number = +prompt("add number")
+    //   sum+=number
+    // }
+    // document.write("sum"+ sum)
+    // document.write("avrg"+ sum/i)
+    //צרו תוכנית שמדפיסה את כל המס השלמים הזוגיים בין 2-50//
+    // function printOd(){
+    // for(var i = 0;i<=50;i++){
+    //   if(i%2 == 0){
+    //     document.write(i)
+    //   }
+    // }
+    // }
+    // printOd()
+    //הדפסת פונקציה וספרות בין 1 -50 //
+    // function printOdnum(){
+    // for(var i = 1;i<=50;i++){
+    //   if(i%3 == 1){
+    //     document.write(i)
+    //   }
+    // }
+    // }
+    // printOdnum()
+    //חישוב עצרת //
+    //   function printFkt(){
+    //   var i = +prompt("add anumb")
+    //   var fkt = 1
+    //   while (i > 0) {
+    //     fkt *= i
+    //     i--
+    //   } 
+    //   console.log(fkt)
+    ///הדפסת ספרות 0-100 ע הדפסה בלופ דן///
+    //   function printDo(){
+    // var i = 0 ;
+    // do{
+    //   console.log(i)
+    //   i++
+    // }while(i<101)
+    //   }
+    //   printDo()
+
+
+    // var i = 0;
+    // var sum = 0;
+    // do {
+    // var numbers = +prompt("enter number")
+    // sum+=numbers
+    // i++
+    // }while(i<5)
+    // console.log(sum)
+    // console.log(sum/i)
+  //  var i = 0;
+  //  do{
+  //    if(i%3==1){
+  //      console.log(i)
+  //    }
+  //    i++
+
+  //  }while(i<50)
+//   var i =2
+//   do{
+//     if(i%2==0){
+//       console.log(i)
+//     }
+//      i++
+//   }
+// while(i<51)
+
+// var i = 0
+// do{
+// if(i%2==1)
+// }while(i<5)
+var sum = 0;
+for (var i = 5; i>0 ;i--){
+  var number =+prompt("entar number")
+  sum = number
+  
+}
+document.write(sum)
+
+
+
+
+// console.log(Math.min(num))
+
+
+
+  </script>
+</body>
+
+</html>
